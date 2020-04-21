@@ -1,1 +1,2 @@
-streamlit
+gunicorn<20.0.0; python_version < '3.5'
+gunicorn>=20.0.0; python_version >= '3.5'
