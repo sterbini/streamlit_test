@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-echo "Hello"
+streamlit run testapp.py --server.port 8080
