@@ -1,3 +1,5 @@
-def application(environ, start_response):
-    start_response('200 OK', [('Content-Type','text/plain')])
-    return [b"Hello from gunicorn WSGI application!"]
+import streamlit as st
+st.write('Hello, world!!')
+#def application(environ, start_response):
+#    start_response('200 OK', [('Content-Type','text/plain')])
+#    return [b"Hello from gunicorn WSGI application!"]
