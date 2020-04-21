@@ -1,1 +1,1 @@
-streamlit run testapp.py
+echo "Hello"
