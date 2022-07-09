@@ -1,4 +1,9 @@
 import streamlit as st
+import glob
+
+aux=glob.glob('/eos/user/s/sterbini')
+st.write(aux[2])
+
 st.write('Hello, world!!')
 x = st.slider('x')
 st.write(x, 'squared is', x * x)
