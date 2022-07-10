@@ -2,7 +2,10 @@ import streamlit as st
 import glob
 
 aux=glob.glob('/eos/user/s/sterbini/*')
-st.write(aux[2])
+if len(aux)>0:
+        st.write(f'You CAN access eos file system')
+else:
+        st.write(f'You CANNOT access eos file system')
 
 st.write('Hello, world!!')
 x = st.slider('x')
